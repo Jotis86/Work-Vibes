@@ -263,7 +263,6 @@ with tab1:
     st.markdown("""
     <div style="text-align: center; margin: 50px 0 40px 0;">
         <div style="display: inline-block; position: relative;">
-            <span style="position: absolute; left: -25px; top: -15px; font-size: 30px;">✨</span>
             <h3 style="color: #6c5ce7; font-size: 26px; margin: 0; font-weight: 600; letter-spacing: 0.5px; position: relative;">
                 Cómo puedo acompañarte
             </h3>

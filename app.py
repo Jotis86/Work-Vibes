@@ -292,25 +292,25 @@ with tab1:
     </div>
     """, unsafe_allow_html=True)
 
-# Second service with matching styling
-st.markdown("""
-<div style="display: flex; align-items: flex-start; margin-bottom: 30px;">
-    <div style="background: #6c5ce7; border-radius: 50%; width: 50px; height: 50px; display: flex; align-items: center; justify-content: center; margin-right: 20px; flex-shrink: 0; box-shadow: 0 4px 8px rgba(108, 92, 231, 0.3);">
-        <span style="color: white; font-size: 24px;">✨</span>
-    </div>
-    <div style="flex-grow: 1;">
-        <h4 style="margin-top: 0; margin-bottom: 15px; color: #6c5ce7;">Bienestar Organizacional</h4>
-        <div style="background-color: rgba(162, 155, 254, 0.05); padding: 15px; border-radius: 8px;">
-            <p style="margin-bottom: 10px;">Desarrollo acciones que impactan en:</p>
-            <ul style="margin-bottom: 0; padding-left: 20px;">
-                <li style="margin-bottom: 8px;">Motivación y satisfacción en el entorno laboral</li>
-                <li style="margin-bottom: 8px;">Retención del talento y employer branding</li>
-                <li style="margin-bottom: 0;">Cultura corporativa y valores organizacionales</li>
-            </ul>
+    # Second service with matching styling
+    st.markdown("""
+    <div style="display: flex; align-items: flex-start; margin-bottom: 30px;">
+        <div style="background: #6c5ce7; border-radius: 50%; width: 50px; height: 50px; display: flex; align-items: center; justify-content: center; margin-right: 20px; flex-shrink: 0; box-shadow: 0 4px 8px rgba(108, 92, 231, 0.3);">
+            <span style="color: white; font-size: 24px;">✨</span>
+        </div>
+        <div style="flex-grow: 1;">
+            <h4 style="margin-top: 0; margin-bottom: 15px; color: #6c5ce7;">Bienestar Organizacional</h4>
+            <div style="background-color: rgba(162, 155, 254, 0.05); padding: 15px; border-radius: 8px;">
+                <p style="margin-bottom: 10px;">Desarrollo acciones que impactan en:</p>
+                <ul style="margin-bottom: 0; padding-left: 20px;">
+                    <li style="margin-bottom: 8px;">Motivación y satisfacción en el entorno laboral</li>
+                    <li style="margin-bottom: 8px;">Retención del talento y employer branding</li>
+                    <li style="margin-bottom: 0;">Cultura corporativa y valores organizacionales</li>
+                </ul>
+            </div>
         </div>
     </div>
-</div>
-""", unsafe_allow_html=True)
+    """, unsafe_allow_html=True)
 
 # Content for "Experiencia Profesional" tab with enhanced styling
 with tab2:

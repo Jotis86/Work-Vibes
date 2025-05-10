@@ -260,7 +260,18 @@ with tab1:
     """, unsafe_allow_html=True)
 
     # Services section heading with consistent styling
-    st.markdown("<h3 style='margin-top: 40px; margin-bottom: 30px; color: #6c5ce7; text-align: center;'>Servicios</h3>", unsafe_allow_html=True)
+    st.markdown("""
+    <div style="text-align: center; margin: 50px 0 40px 0;">
+        <div style="display: inline-block; position: relative;">
+            <span style="position: absolute; left: -25px; top: -15px; font-size: 30px;">✨</span>
+            <h3 style="color: #6c5ce7; font-size: 26px; margin: 0; font-weight: 600; letter-spacing: 0.5px; position: relative;">
+                Cómo puedo acompañarte
+            </h3>
+            <div style="height: 3px; width: 40%; background: linear-gradient(to right, #a29bfe, #6c5ce7); margin: 8px auto;"></div>
+            <p style="color: #777; font-size: 16px; margin-top: 5px; font-weight: 300;">Experiencias que transforman organizaciones</p>
+        </div>
+    </div>
+    """, unsafe_allow_html=True)
 
     # First service with matching styling
     st.markdown("""

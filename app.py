@@ -7,6 +7,35 @@ st.set_page_config(page_title="Work Vibes | Silvia", page_icon="💼", layout="w
 st.title("💫 Recursos Humanos, pero con H de Humanización")
 st.markdown("---")
 
+# Add this code near the top of your [app.py](app.py) file (after the imports)
+# Sidebar
+with st.sidebar:
+    # Add a nice image
+    st.image("https://via.placeholder.com/300x200", caption="Silvia")  # Replace with your actual image path
+    
+    st.markdown("## Conéctate conmigo")
+    
+    # Social media links with icons
+    st.markdown("""
+    <div style="display: flex; justify-content: space-around; margin-top: 20px;">
+        <a href="https://linkedin.com/in/yourprofile" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" width="40">
+        </a>
+        <a href="https://twitter.com/workvibesilvia" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" width="40">
+        </a>
+        <a href="https://instagram.com/workvibesilvia" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" width="40">
+        </a>
+    </div>
+    """, unsafe_allow_html=True)
+    
+    # Additional links or text
+    st.markdown("---")
+    st.markdown("### Recursos y artículos")
+    st.markdown("[📝 Mi Blog](#)")
+    st.markdown("[📚 Recursos gratuitos](#)")
+
 # Introduction in a highlighted container
 with st.container():
     col1, col2 = st.columns([2, 1])

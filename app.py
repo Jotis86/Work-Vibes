@@ -320,39 +320,39 @@ with tab2:
     st.markdown("""
     <div class="timeline-item">
         <h3 style="margin: 0;">Especialista en formación</h3>
-        <p style="color: #6c5ce7; font-weight: 500; margin: 5px 0;">Cámara de Comercio, Industria y Servicios de Madrid</p>
+        <p style="color: #6c5ce7; font-weight: 500; margin: 5px 0;">Cámara de Comercio, Industria y Servicios de Madrid <span style="color: #333; font-weight: normal; font-style: italic;">• Actualmente</span></p>
         <p style="margin-top: 10px;">
             Diseño e impartición de programas formativos orientados al desarrollo profesional, con foco en competencias clave para el mercado laboral actual.
         </p>
     </div>
-    
+
     <div class="timeline-item">
         <h3 style="margin: 0;">Consultor de Talento y Empleabilidad</h3>
-        <p style="color: #6c5ce7; font-weight: 500; margin: 5px 0;">Profesional independiente</p>
+        <p style="color: #6c5ce7; font-weight: 500; margin: 5px 0;">Profesional independiente <span style="color: #333; font-weight: normal; font-style: italic;">• Actualmente</span></p>
         <p style="margin-top: 10px;">
             Asesoramiento personalizado en estrategias de desarrollo profesional y planes de carrera adaptados a las necesidades individuales.
         </p>
     </div>
-    
+
     <div class="timeline-item">
         <h3 style="margin: 0;">Responsable de equipo y Support Specialist</h3>
-        <p style="color: #6c5ce7; font-weight: 500; margin: 5px 0;">Universidad Europea Online</p>
+        <p style="color: #6c5ce7; font-weight: 500; margin: 5px 0;">Universidad Europea Online <span style="color: #333; font-weight: normal; font-style: italic;">• 2021 - 2024</span></p>
         <p style="margin-top: 10px;">
             Coordinación de equipos y soporte especializado en entornos de educación online, diseñando estrategias de aprendizaje efectivas y gestionando el desarrollo de talento interno.
         </p>
     </div>
-    
+
     <div class="timeline-item">
         <h3 style="margin: 0;">Especialista en formación</h3>
-        <p style="color: #6c5ce7; font-weight: 500; margin: 5px 0;">Flou Oposiciones</p>
+        <p style="color: #6c5ce7; font-weight: 500; margin: 5px 0;">Flou Oposiciones <span style="color: #333; font-weight: normal; font-style: italic;">• 2021 - 2024</span></p>
         <p style="margin-top: 10px;">
             Diseño e implementación de programas formativos específicos para oposiciones, con énfasis en técnicas de estudio y gestión del estrés.
         </p>
     </div>
-    
+
     <div class="timeline-item">
         <h3 style="margin: 0;">Consultor de empleo y Orientación Laboral</h3>
-        <p style="color: #6c5ce7; font-weight: 500; margin: 5px 0;">Universidad Nebrija</p>
+        <p style="color: #6c5ce7; font-weight: 500; margin: 5px 0;">Universidad Nebrija <span style="color: #333; font-weight: normal; font-style: italic;">• 2020</span></p>
         <p style="margin-top: 10px;">
             Asesoramiento y orientación profesional a estudiantes y egresados universitarios, desarrollando programas de inserción laboral y competencias transversales.
         </p>

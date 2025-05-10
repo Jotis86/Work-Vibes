@@ -24,16 +24,16 @@ with st.sidebar:
     # Social media links with icons
     st.markdown("""
     <div style="display: flex; justify-content: space-around; margin-top: 20px;">
-        <a href="https://linkedin.com/in/yourprofile" target="_blank">
+        <a href="https://www.linkedin.com/in/silvia-moreno-portillo/" target="_blank">
             <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" width="40">
         </a>
-        <a href="https://instagram.com/workvibesilvia" target="_blank">
+        <a href="https://www.instagram.com/workvibesilvia/" target="_blank">
             <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" width="40">
         </a>
-        <a href="https://tiktok.com/@workvibesilvia" target="_blank">
+        <a href="https://www.tiktok.com/@workvibesilvia" target="_blank">
             <img src="https://cdn-icons-png.flaticon.com/512/3116/3116491.png" width="40">
         </a>
-        <a href="https://youtube.com/@workvibesilvia" target="_blank">
+        <a href="https://www.youtube.com/@workvibesilvia" target="_blank">
             <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" width="40">
         </a>
     </div>

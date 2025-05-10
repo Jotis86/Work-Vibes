@@ -142,17 +142,27 @@ with tab3:
     st.header("Educación")
     
     with st.container():
-        # Add your education information here
-        st.subheader("Universidad / Título")
-        st.caption("2010-2014")
-        st.markdown("Descripción de tus estudios y especializaciones.")
+        # ENEB
+        st.subheader("Master en Dirección de Recursos Humanos y Gestión del Talento")
+        st.caption("ENEB - Escuela de Negocios Europea de Barcelona | sept. 2024")
         st.markdown("---")
         
-        # Add more education entries as needed
-        st.subheader("Certificaciones y Cursos Relevantes")
-        st.markdown("• Certificación en Desarrollo de Talento")
-        st.markdown("• Especialización en Bienestar Organizacional")
-        st.markdown("• Curso de Liderazgo y Gestión de Equipos")
+        # Universidad Nebrija
+        st.subheader("Máster en Psicopedagogía y orientación laboral")
+        st.caption("Universidad Nebrija | 2019 - 2020")
+        st.markdown("Especialización en Psicopedagogía")
+        st.markdown("---")
+        
+        # Universidad Europea
+        st.subheader("Experto Universitario en Atención a la Diversidad")
+        st.caption("Universidad Europea | abr. 2021 - may. 2021")
+        st.markdown("Área: Educación")
+        st.markdown("---")
+        
+        # Universidad Rey Juan Carlos
+        st.subheader("Grado en Magisterio")
+        st.caption("Universidad Rey Juan Carlos")
+        st.markdown("Especialización en Educación")
 
 # Footer
 st.markdown("---")

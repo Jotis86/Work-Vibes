@@ -10,8 +10,9 @@ st.markdown("---")
 # Add this code near the top of your [app.py](app.py) file (after the imports)
 # Sidebar
 with st.sidebar:
-    # Add a nice image
-    st.image("https://via.placeholder.com/300x200", caption="Silvia")  # Replace with your actual image path
+    # Use a reliable online HR image
+    st.image("https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80", 
+             caption="Silvia")
     
     st.markdown("## Conéctate conmigo")
     

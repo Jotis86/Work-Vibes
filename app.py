@@ -10,9 +10,19 @@ st.markdown("---")
 # Add this code near the top of your [app.py](app.py) file (after the imports)
 # Sidebar
 with st.sidebar:
-    # Use a reliable online HR image
-    st.image("https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80", 
-             caption="Silvia")
+    # Create a styled text logo
+    st.markdown("""
+    <div style="background: linear-gradient(45deg, #6c5ce7, #a29bfe); 
+                padding: 20px; 
+                border-radius: 10px; 
+                text-align: center;
+                margin-bottom: 20px;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+        <h1 style="color: white; font-size: 28px; margin: 0;">Silvia</h1>
+        <h2 style="color: white; font-size: 18px; margin: 0; font-weight: 300;">Moreno Portillo</h2>
+        <p style="color: white; font-size: 12px; margin-top: 10px;">RECURSOS HUMANOS</p>
+    </div>
+    """, unsafe_allow_html=True)
     
     st.markdown("## Conéctate conmigo")
     

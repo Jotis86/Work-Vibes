@@ -66,43 +66,46 @@ tab1, tab2, tab3 = st.tabs(["🙋‍♀️ Quién Soy", "💼 Experiencia Profes
 with tab1:
     st.header("Quién Soy")
     
-    col1, col2 = st.columns([2, 1])
-    with col1:
-        st.markdown("""
-        <div style="background-color:#f0f2f6; padding:20px; border-radius:10px">
-        <p style="font-size:18px;">
-        Con experiencia en el diseño e implementación de estrategias de formación, 
-        desarrollo del talento y bienestar organizacional.
-        </p>
-        </div>
-        """, unsafe_allow_html=True)
-        
-        st.subheader("Mi Propósito")
-        st.write("Humanizar las organizaciones, acompañando a personas y equipos a desplegar todo su potencial en entornos laborales sostenibles, conscientes y emocionalmente saludables.")
-        
-        st.subheader("Mi Enfoque")
-        st.write("Trabajo en la intersección entre cultura organizacional, employer branding y employee experience, ayudando a construir empresas más conectadas con sus valores, más humanas y, por tanto, más productivas.")
-        
-        st.info("Creo firmemente que cuando se cuida a las personas, los resultados llegan solos")
+    # Introduction - now in full width
+    st.markdown("""
+    <div style="background-color:#f0f2f6; padding:20px; border-radius:10px">
+    <p style="font-size:18px;">
+    Con experiencia en el diseño e implementación de estrategias de formación, 
+    desarrollo del talento y bienestar organizacional.
+    </p>
+    </div>
+    """, unsafe_allow_html=True)
+    
+    # Purpose section
+    st.subheader("Mi Propósito")
+    st.write("Humanizar las organizaciones, acompañando a personas y equipos a desplegar todo su potencial en entornos laborales sostenibles, conscientes y emocionalmente saludables.")
+    
+    # Approach section
+    st.subheader("Mi Enfoque")
+    st.write("Trabajo en la intersección entre cultura organizacional, employer branding y employee experience, ayudando a construir empresas más conectadas con sus valores, más humanas y, por tanto, más productivas.")
+    
+    st.info("Creo firmemente que cuando se cuida a las personas, los resultados llegan solos")
 
-    with col2:
-        # Services with visual improvements
-        st.subheader("Servicios")
-        st.markdown("### 🌱 Formación con Propósito")
-        st.markdown("""
-        Diseño e imparto programas orientados al:
-        - Crecimiento profesional
-        - Liderazgo empático 
-        - Compromiso de los equipos
-        """)
-        
-        st.markdown("### ✨ Bienestar Organizacional")
-        st.markdown("""
-        Desarrollo acciones que impactan en:
-        - Motivación
-        - Retención del talento
-        - Cultura corporativa
-        """)
+    # Services section - now in the main flow
+    st.subheader("Servicios")
+    
+    # First service
+    st.markdown("### 🌱 Formación con Propósito")
+    st.markdown("""
+    Diseño e imparto programas orientados al:
+    - Crecimiento profesional
+    - Liderazgo empático 
+    - Compromiso de los equipos
+    """)
+    
+    # Second service
+    st.markdown("### ✨ Bienestar Organizacional")
+    st.markdown("""
+    Desarrollo acciones que impactan en:
+    - Motivación
+    - Retención del talento
+    - Cultura corporativa
+    """)
 
 # Content for "Experiencia Profesional" tab
 with tab2:

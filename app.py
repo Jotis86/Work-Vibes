@@ -3,10 +3,6 @@ import streamlit as st
 
 st.set_page_config(page_title="Work Vibes | Silvia", page_icon="💼", layout="wide")
 
-# Header section with custom styling
-st.title("💫 Recursos Humanos, pero con H de Humanización")
-st.markdown("---")
-
 # Add a matching banner
 st.markdown("""
 <div style="background: linear-gradient(to right, #a29bfe, #6c5ce7); 
@@ -35,7 +31,7 @@ with st.sidebar:
                 margin-bottom: 20px;
                 box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
         <h1 style="color: white; font-size: 28px; margin: 0;">Silvia Moreno Portillo</h1>
-        <p style="color: white; font-size: 12px; margin-top: 10px;">Especialista en RRHH</p>
+        <p style="color: white; font-size: 12px; margin-top: 10px;">Recursos Humanos, pero con H de Humanización</p>
     </div>
     """, unsafe_allow_html=True)
     

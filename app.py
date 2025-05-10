@@ -316,46 +316,70 @@ with tab1:
 with tab2:
     #st.markdown("<h2 style='margin-bottom: 30px; margin-top: 20px;'>Experiencia Profesional</h2>", unsafe_allow_html=True)
     
-    # Timeline with enhanced styling
+    # Timeline with enhanced styling, dates and detailed functions
     st.markdown("""
     <div class="timeline-item">
         <h3 style="margin: 0;">Especialista en formación</h3>
         <p style="color: #6c5ce7; font-weight: 500; margin: 5px 0;">Cámara de Comercio, Industria y Servicios de Madrid <span style="color: #333; font-weight: normal; font-style: italic;">• Actualmente</span></p>
-        <p style="margin-top: 10px;">
-            Diseño e impartición de programas formativos orientados al desarrollo profesional, con foco en competencias clave para el mercado laboral actual.
-        </p>
+        <div style="margin-top: 10px; background-color: rgba(162, 155, 254, 0.05); padding: 15px; border-radius: 8px;">
+            <ul style="margin-bottom: 0; padding-left: 20px;">
+                <li style="margin-bottom: 8px;">Diseño procesos de aprendizaje prácticos que impulsan el desarrollo profesional real.</li>
+                <li style="margin-bottom: 8px;">Adapto contenidos y metodologías para garantizar experiencias transformadoras y aplicables.</li>
+                <li style="margin-bottom: 0;">Ayudo a personas y grupos a reconocer y comunicar su valor profesional con autenticidad.</li>
+            </ul>
+        </div>
     </div>
 
     <div class="timeline-item">
         <h3 style="margin: 0;">Consultor de Talento y Empleabilidad</h3>
         <p style="color: #6c5ce7; font-weight: 500; margin: 5px 0;">Profesional independiente <span style="color: #333; font-weight: normal; font-style: italic;">• Actualmente</span></p>
-        <p style="margin-top: 10px;">
-            Asesoramiento personalizado en estrategias de desarrollo profesional y planes de carrera adaptados a las necesidades individuales.
-        </p>
+        <div style="margin-top: 10px; background-color: rgba(162, 155, 254, 0.05); padding: 15px; border-radius: 8px;">
+            <ul style="margin-bottom: 0; padding-left: 20px;">
+                <li style="margin-bottom: 8px;">Diseño estrategias personalizadas de empleabilidad y posicionamiento en el mercado laboral.</li>
+                <li style="margin-bottom: 8px;">Imparto talleres sobre employer branding, atracción de talento y procesos de selección.</li>
+                <li style="margin-bottom: 8px;">Optimizo CVs y perfiles de LinkedIn para un posicionamiento estratégico efectivo.</li>
+                <li style="margin-bottom: 0;">Realizo entrenamientos para entrevistas mejorando comunicación, impacto y confianza.</li>
+            </ul>
+        </div>
     </div>
 
     <div class="timeline-item">
         <h3 style="margin: 0;">Responsable de equipo y Support Specialist</h3>
         <p style="color: #6c5ce7; font-weight: 500; margin: 5px 0;">Universidad Europea Online <span style="color: #333; font-weight: normal; font-style: italic;">• 2021 - 2024</span></p>
-        <p style="margin-top: 10px;">
-            Coordinación de equipos y soporte especializado en entornos de educación online, diseñando estrategias de aprendizaje efectivas y gestionando el desarrollo de talento interno.
-        </p>
+        <div style="margin-top: 10px; background-color: rgba(162, 155, 254, 0.05); padding: 15px; border-radius: 8px;">
+            <ul style="margin-bottom: 0; padding-left: 20px;">
+                <li style="margin-bottom: 8px;">Diseño de estrategias de reclutamiento y planes de atracción de talento.</li>
+                <li style="margin-bottom: 8px;">Desarrollo de iniciativas de apoyo y mejora de habilidades para empleados.</li>
+                <li style="margin-bottom: 8px;">Supervisión de procesos de OnBoarding/OffBoarding y diseño de planes formativos.</li>
+                <li style="margin-bottom: 0;">Facilitación de actividades para integración y consolidación de equipos.</li>
+            </ul>
+        </div>
     </div>
 
     <div class="timeline-item">
         <h3 style="margin: 0;">Especialista en formación</h3>
         <p style="color: #6c5ce7; font-weight: 500; margin: 5px 0;">Flou Oposiciones <span style="color: #333; font-weight: normal; font-style: italic;">• 2021 - 2024</span></p>
-        <p style="margin-top: 10px;">
-            Diseño e implementación de programas formativos específicos para oposiciones, con énfasis en técnicas de estudio y gestión del estrés.
-        </p>
+        <div style="margin-top: 10px; background-color: rgba(162, 155, 254, 0.05); padding: 15px; border-radius: 8px;">
+            <ul style="margin-bottom: 0; padding-left: 20px;">
+                <li style="margin-bottom: 8px;">Desarrollo de planes formativos personalizados según itinerarios específicos.</li>
+                <li style="margin-bottom: 8px;">Implementación de metodologías innovadoras: gamificación, mapas mentales y técnicas memorísticas.</li>
+                <li style="margin-bottom: 8px;">Acompañamiento con herramientas de planificación, organización y gestión del tiempo.</li>
+                <li style="margin-bottom: 0;">Entrenamiento en soft skills y técnicas para manejo de presión y motivación.</li>
+            </ul>
+        </div>
     </div>
 
     <div class="timeline-item">
         <h3 style="margin: 0;">Consultor de empleo y Orientación Laboral</h3>
         <p style="color: #6c5ce7; font-weight: 500; margin: 5px 0;">Universidad Nebrija <span style="color: #333; font-weight: normal; font-style: italic;">• 2020</span></p>
-        <p style="margin-top: 10px;">
-            Asesoramiento y orientación profesional a estudiantes y egresados universitarios, desarrollando programas de inserción laboral y competencias transversales.
-        </p>
+        <div style="margin-top: 10px; background-color: rgba(162, 155, 254, 0.05); padding: 15px; border-radius: 8px;">
+            <ul style="margin-bottom: 0; padding-left: 20px;">
+                <li style="margin-bottom: 8px;">Asesoramiento profesional individualizado y diseño de itinerarios laborales.</li>
+                <li style="margin-bottom: 8px;">Impartición de talleres de habilidades laborales y evaluación de competencias.</li>
+                <li style="margin-bottom: 8px;">Análisis del mercado laboral y promoción de la inclusión laboral.</li>
+                <li style="margin-bottom: 0;">Colaboración con empresas para programas de inserción laboral.</li>
+            </ul>
+        </div>
     </div>
     """, unsafe_allow_html=True)
 

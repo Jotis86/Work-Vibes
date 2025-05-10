@@ -191,37 +191,56 @@ with tab1:
     
     # Introduction with enhanced styling
     st.markdown("""
-    <div class="card subtle-bg" style="margin-bottom: 30px;">
-        <p style="font-size: 18px; line-height: 1.6;">
-        Con experiencia en el diseño e implementación de estrategias de formación, 
-        desarrollo del talento y bienestar organizacional. Mi enfoque combina
+    <div style="background: linear-gradient(to right, rgba(162, 155, 254, 0.1), rgba(108, 92, 231, 0.1)); 
+                padding: 30px;
+                border-radius: 12px;
+                margin-bottom: 40px;
+                box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+                border-left: 5px solid #a29bfe;">
+        <p style="font-size: 19px; line-height: 1.7; font-weight: 300;">
+        <span style="font-size: 24px; color: #6c5ce7;">✨</span> Con experiencia en el diseño e implementación de <strong>estrategias de formación</strong>, 
+        <strong>desarrollo del talento</strong> y <strong>bienestar organizacional</strong>. Mi enfoque combina
         la psicología organizacional con métodos innovadores para crear culturas 
         de trabajo más humanas y efectivas.
         </p>
     </div>
     """, unsafe_allow_html=True)
-    
+
     # Purpose section with enhanced styling
-    st.markdown("<h3 style='margin-top: 30px; margin-bottom: 15px;'>Mi Propósito</h3>", unsafe_allow_html=True)
     st.markdown("""
-    <div style="padding: 0 5px; margin-bottom: 30px;">
-        <p style="font-size: 16px; line-height: 1.7;">
-            Humanizar las organizaciones, acompañando a personas y equipos a desplegar todo su potencial 
-            en entornos laborales sostenibles, conscientes y emocionalmente saludables. Busco transformar
-            la relación entre personas y empresas hacia modelos más equilibrados y satisfactorios para todos.
-        </p>
+    <div style="display: flex; align-items: flex-start; margin-bottom: 40px;">
+        <div style="background: #6c5ce7; border-radius: 50%; width: 50px; height: 50px; display: flex; align-items: center; justify-content: center; margin-right: 20px; flex-shrink: 0; box-shadow: 0 4px 8px rgba(108, 92, 231, 0.3);">
+            <span style="color: white; font-size: 24px;">🎯</span>
+        </div>
+        <div>
+            <h3 style="margin-top: 0; margin-bottom: 15px; color: #6c5ce7;">Mi Propósito</h3>
+            <p style="font-size: 16px; line-height: 1.8; background-color: rgba(162, 155, 254, 0.05); padding: 15px; border-radius: 8px;">
+                Humanizar las organizaciones, acompañando a personas y equipos a desplegar todo su potencial 
+                en entornos laborales sostenibles, conscientes y emocionalmente saludables. 
+                <span style="display: block; margin-top: 10px; font-style: italic; color: #6c5ce7;">
+                Busco transformar la relación entre personas y empresas hacia modelos más equilibrados y satisfactorios para todos.
+                </span>
+            </p>
+        </div>
     </div>
     """, unsafe_allow_html=True)
-    
+
     # Approach section with enhanced styling
-    st.markdown("<h3 style='margin-top: 30px; margin-bottom: 15px;'>Mi Enfoque</h3>", unsafe_allow_html=True)
     st.markdown("""
-    <div style="padding: 0 5px; margin-bottom: 30px;">
-        <p style="font-size: 16px; line-height: 1.7;">
-            Trabajo en la intersección entre cultura organizacional, employer branding y employee experience, 
-            ayudando a construir empresas más conectadas con sus valores, más humanas y, por tanto, más productivas.
-            Cada organización es única, por lo que diseño soluciones personalizadas basadas en evidencia y buenas prácticas.
-        </p>
+    <div style="display: flex; align-items: flex-start; margin-bottom: 40px;">
+        <div style="background: #6c5ce7; border-radius: 50%; width: 50px; height: 50px; display: flex; align-items: center; justify-content: center; margin-right: 20px; flex-shrink: 0; box-shadow: 0 4px 8px rgba(108, 92, 231, 0.3);">
+            <span style="color: white; font-size: 24px;">🔍</span>
+        </div>
+        <div>
+            <h3 style="margin-top: 0; margin-bottom: 15px; color: #6c5ce7;">Mi Enfoque</h3>
+            <p style="font-size: 16px; line-height: 1.8; background-color: rgba(162, 155, 254, 0.05); padding: 15px; border-radius: 8px;">
+                Trabajo en la intersección entre <strong>cultura organizacional</strong>, <strong>employer branding</strong> y <strong>employee experience</strong>, 
+                ayudando a construir empresas más conectadas con sus valores, más humanas y, por tanto, más productivas.
+                <span style="display: block; margin-top: 10px; font-style: italic; color: #6c5ce7;">
+                Cada organización es única, por lo que diseño soluciones personalizadas basadas en evidencia y buenas prácticas.
+                </span>
+            </p>
+        </div>
     </div>
     """, unsafe_allow_html=True)
     

@@ -197,7 +197,7 @@ with tab1:
                 margin-bottom: 40px;
                 box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
                 border-left: 5px solid #a29bfe;">
-        <p style="font-size: 19px; line-height: 1.7; font-weight: 300;">
+        <p style="font-size: 16px; line-height: 1.7; font-weight: 300;">
         <span style="font-size: 24px; color: #6c5ce7;">✨</span> Con experiencia en el diseño e implementación de <strong>estrategias de formación</strong>, 
         <strong>desarrollo del talento</strong> y <strong>bienestar organizacional</strong>. Mi enfoque combina
         la psicología organizacional con métodos innovadores para crear culturas 

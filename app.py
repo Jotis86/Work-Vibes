@@ -246,47 +246,61 @@ with tab1:
     
     # Quote with enhanced styling
     st.markdown("""
-    <div style="background: linear-gradient(to right, rgba(162, 155, 254, 0.2), rgba(108, 92, 231, 0.2)); 
-                padding: 25px; 
-                border-radius: 10px; 
-                margin: 30px 0;
-                border-left: 5px solid #6c5ce7;
-                font-style: italic;
+    <div style="background: linear-gradient(45deg, rgba(162, 155, 254, 0.15), rgba(108, 92, 231, 0.15)); 
+                padding: 30px; 
+                border-radius: 12px; 
+                margin: 40px 0;
+                box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
                 text-align: center;">
-        <p style="font-size: 18px; line-height: 1.7; margin: 0;">
+        <span style="font-size: 30px; color: #6c5ce7; margin-bottom: 15px; display: block;">💫</span>
+        <p style="font-size: 20px; line-height: 1.7; margin: 0; font-style: italic; color: #6c5ce7; font-weight: 500;">
             "Creo firmemente que cuando se cuida a las personas, los resultados llegan solos"
         </p>
     </div>
     """, unsafe_allow_html=True)
 
-    # Services section with enhanced styling
-    st.markdown("<h3 style='margin-top: 40px; margin-bottom: 25px;'>Servicios</h3>", unsafe_allow_html=True)
-    
-    # First service with enhanced styling
+    # Services section heading with consistent styling
+    st.markdown("<h3 style='margin-top: 40px; margin-bottom: 30px; color: #6c5ce7; text-align: center;'>Servicios</h3>", unsafe_allow_html=True)
+
+    # First service with matching styling
     st.markdown("""
-    <div class="service-card">
-        <h4 style="color: #6c5ce7; margin-top: 0;">🌱 Formación con Propósito</h4>
-        <p style="margin-bottom: 10px;">Diseño e imparto programas orientados al:</p>
-        <ul style="margin-bottom: 0;">
-            <li>Crecimiento profesional y desarrollo de habilidades</li>
-            <li>Liderazgo empático y gestión de equipos diversos</li>
-            <li>Compromiso de los equipos y cultura organizacional</li>
-        </ul>
+    <div style="display: flex; align-items: flex-start; margin-bottom: 30px;">
+        <div style="background: #6c5ce7; border-radius: 50%; width: 50px; height: 50px; display: flex; align-items: center; justify-content: center; margin-right: 20px; flex-shrink: 0; box-shadow: 0 4px 8px rgba(108, 92, 231, 0.3);">
+            <span style="color: white; font-size: 24px;">🌱</span>
+        </div>
+        <div style="flex-grow: 1;">
+            <h4 style="margin-top: 0; margin-bottom: 15px; color: #6c5ce7;">Formación con Propósito</h4>
+            <div style="background-color: rgba(162, 155, 254, 0.05); padding: 15px; border-radius: 8px;">
+                <p style="margin-bottom: 10px;">Diseño e imparto programas orientados al:</p>
+                <ul style="margin-bottom: 0; padding-left: 20px;">
+                    <li style="margin-bottom: 8px;">Crecimiento profesional y desarrollo de habilidades</li>
+                    <li style="margin-bottom: 8px;">Liderazgo empático y gestión de equipos diversos</li>
+                    <li style="margin-bottom: 0;">Compromiso de los equipos y cultura organizacional</li>
+                </ul>
+            </div>
+        </div>
     </div>
     """, unsafe_allow_html=True)
-    
-    # Second service with enhanced styling
-    st.markdown("""
-    <div class="service-card">
-        <h4 style="color: #6c5ce7; margin-top: 0;">✨ Bienestar Organizacional</h4>
-        <p style="margin-bottom: 10px;">Desarrollo acciones que impactan en:</p>
-        <ul style="margin-bottom: 0;">
-            <li>Motivación y satisfacción en el entorno laboral</li>
-            <li>Retención del talento y employer branding</li>
-            <li>Cultura corporativa y valores organizacionales</li>
-        </ul>
+
+# Second service with matching styling
+st.markdown("""
+<div style="display: flex; align-items: flex-start; margin-bottom: 30px;">
+    <div style="background: #6c5ce7; border-radius: 50%; width: 50px; height: 50px; display: flex; align-items: center; justify-content: center; margin-right: 20px; flex-shrink: 0; box-shadow: 0 4px 8px rgba(108, 92, 231, 0.3);">
+        <span style="color: white; font-size: 24px;">✨</span>
     </div>
-    """, unsafe_allow_html=True)
+    <div style="flex-grow: 1;">
+        <h4 style="margin-top: 0; margin-bottom: 15px; color: #6c5ce7;">Bienestar Organizacional</h4>
+        <div style="background-color: rgba(162, 155, 254, 0.05); padding: 15px; border-radius: 8px;">
+            <p style="margin-bottom: 10px;">Desarrollo acciones que impactan en:</p>
+            <ul style="margin-bottom: 0; padding-left: 20px;">
+                <li style="margin-bottom: 8px;">Motivación y satisfacción en el entorno laboral</li>
+                <li style="margin-bottom: 8px;">Retención del talento y employer branding</li>
+                <li style="margin-bottom: 0;">Cultura corporativa y valores organizacionales</li>
+            </ul>
+        </div>
+    </div>
+</div>
+""", unsafe_allow_html=True)
 
 # Content for "Experiencia Profesional" tab with enhanced styling
 with tab2:

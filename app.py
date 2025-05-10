@@ -47,7 +47,7 @@ with st.sidebar:
             <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" width="40">
         </a>
         <a href="https://tiktok.com/@workvibesilvia" target="_blank">
-            <img src="https://cdn-icons-png.flaticon.com/512/3046/3046121.png" width="40">
+            <img src="https://cdn-icons-png.flaticon.com/512/3116/3116491.png" width="40">
         </a>
         <a href="https://youtube.com/@workvibesilvia" target="_blank">
             <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" width="40">

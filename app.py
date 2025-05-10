@@ -336,7 +336,7 @@ with tab2:
     
     <div class="timeline-item">
         <h3 style="margin: 0;">Responsable de equipo y Support Specialist</h3>
-        <p style="color: #6c5ce7; font-weight: 500; margin: 5px 0;">Universidad Europea Online | Jornada completa · 4 años 4 meses</p>
+        <p style="color: #6c5ce7; font-weight: 500; margin: 5px 0;">Universidad Europea Online</p>
         <p style="margin-top: 10px;">
             Coordinación de equipos y soporte especializado en entornos de educación online, diseñando estrategias de aprendizaje efectivas y gestionando el desarrollo de talento interno.
         </p>

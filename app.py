@@ -187,7 +187,7 @@ tab1, tab2, tab3 = st.tabs(["🙋‍♀️ Quién Soy", "💼 Experiencia Profes
 
 # Content for "Quién Soy" tab with enhanced styling
 with tab1:
-    st.markdown("<h2 style='margin-bottom: 30px; margin-top: 20px;'>Quién Soy</h2>", unsafe_allow_html=True)
+    #st.markdown("<h2 style='margin-bottom: 30px; margin-top: 20px;'>Quién Soy</h2>", unsafe_allow_html=True)
     
     # Introduction with enhanced styling
     st.markdown("""
@@ -271,7 +271,7 @@ with tab1:
 
 # Content for "Experiencia Profesional" tab with enhanced styling
 with tab2:
-    st.markdown("<h2 style='margin-bottom: 30px; margin-top: 20px;'>Experiencia Profesional</h2>", unsafe_allow_html=True)
+    #st.markdown("<h2 style='margin-bottom: 30px; margin-top: 20px;'>Experiencia Profesional</h2>", unsafe_allow_html=True)
     
     # Timeline with enhanced styling
     st.markdown("""
@@ -318,7 +318,7 @@ with tab2:
 
 # Content for "Educación" tab with enhanced styling
 with tab3:
-    st.markdown("<h2 style='margin-bottom: 30px; margin-top: 20px;'>Educación</h2>", unsafe_allow_html=True)
+    #st.markdown("<h2 style='margin-bottom: 30px; margin-top: 20px;'>Educación</h2>", unsafe_allow_html=True)
     
     # Education cards with enhanced styling
     st.markdown("""

@@ -7,6 +7,22 @@ st.set_page_config(page_title="Work Vibes | Silvia", page_icon="💼", layout="w
 st.title("💫 Recursos Humanos, pero con H de Humanización")
 st.markdown("---")
 
+# Add a matching banner
+st.markdown("""
+<div style="background: linear-gradient(to right, #a29bfe, #6c5ce7); 
+            padding: 20px; 
+            border-radius: 10px; 
+            margin: 20px 0;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+    <h2 style="color: white; text-align: center; margin: 0;">Desarrollo del Talento & Bienestar Organizacional</h2>
+    <p style="color: white; text-align: center; margin-top: 10px; font-size: 16px;">
+        Construyendo entornos laborales más humanos, sostenibles y productivos
+    </p>
+</div>
+""", unsafe_allow_html=True)
+
+
+
 # Add this code near the top of your [app.py](app.py) file (after the imports)
 # Sidebar
 with st.sidebar:

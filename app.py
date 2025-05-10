@@ -19,7 +19,7 @@ with st.sidebar:
                 margin-bottom: 20px;
                 box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
         <h1 style="color: white; font-size: 28px; margin: 0;">Silvia</h1>
-        <h2 style="color: white; font-size: 18px; margin: 0; font-weight: 300;">Moreno Portillo</h2>
+        <h1 style="color: white; font-size: 18px; margin: 0; font-weight: 300;">Moreno Portillo</h1>
         <p style="color: white; font-size: 12px; margin-top: 10px;">RECURSOS HUMANOS</p>
     </div>
     """, unsafe_allow_html=True)

@@ -367,8 +367,14 @@ with tab3:
     st.markdown("""
     <div class="card light-bg">
         <h3 style="margin-top: 0; color: #6c5ce7;">Master en Dirección de Recursos Humanos y Gestión del Talento</h3>
-        <p style="font-weight: 500; margin: 5px 0 15px 0;">ENEB - Escuela de Negocios Europea de Barcelona | sept. 2024</p>
+        <p style="font-weight: 500; margin: 5px 0 15px 0;">ENEB - Escuela de Negocios Europea de Barcelona | 2024</p>
         <p>Especialización en estrategias avanzadas de gestión del talento, bienestar organizacional y nuevos modelos de trabajo.</p>
+    </div>
+
+    <div class="card light-bg">
+        <h3 style="margin-top: 0; color: #6c5ce7;">Experto Universitario en Atención a la Diversidad</h3>
+        <p style="font-weight: 500; margin: 5px 0 15px 0;">Universidad Europea | 2021</p>
+        <p>Especialización en diseño de entornos inclusivos y adaptación de metodologías para diferentes necesidades.</p>
     </div>
     
     <div class="card light-bg">
@@ -378,14 +384,8 @@ with tab3:
     </div>
     
     <div class="card light-bg">
-        <h3 style="margin-top: 0; color: #6c5ce7;">Experto Universitario en Atención a la Diversidad</h3>
-        <p style="font-weight: 500; margin: 5px 0 15px 0;">Universidad Europea | abr. 2021 - may. 2021</p>
-        <p>Especialización en diseño de entornos inclusivos y adaptación de metodologías para diferentes necesidades.</p>
-    </div>
-    
-    <div class="card light-bg">
         <h3 style="margin-top: 0; color: #6c5ce7;">Grado en Magisterio</h3>
-        <p style="font-weight: 500; margin: 5px 0 15px 0;">Universidad Rey Juan Carlos</p>
+        <p style="font-weight: 500; margin: 5px 0 15px 0;">Universidad Rey Juan Carlos | 2013 - 2017</p>
         <p>Formación fundamental en pedagogía, psicología del aprendizaje y diseño de estrategias educativas.</p>
     </div>
     """, unsafe_allow_html=True)

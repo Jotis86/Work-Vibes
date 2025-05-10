@@ -150,24 +150,21 @@ with tab3:
         # Universidad Nebrija
         st.subheader("Máster en Psicopedagogía y orientación laboral")
         st.caption("Universidad Nebrija | 2019 - 2020")
-        st.markdown("Especialización en Psicopedagogía")
         st.markdown("---")
         
         # Universidad Europea
         st.subheader("Experto Universitario en Atención a la Diversidad")
         st.caption("Universidad Europea | abr. 2021 - may. 2021")
-        st.markdown("Área: Educación")
         st.markdown("---")
         
         # Universidad Rey Juan Carlos
         st.subheader("Grado en Magisterio")
         st.caption("Universidad Rey Juan Carlos")
-        st.markdown("Especialización en Educación")
 
 # Footer
 st.markdown("---")
 st.markdown("""
 <div style="text-align:center; padding: 10px; color: #6c5ce7">
-<p>© 2023 Silvia Moreno Portillo | Work Vibes</p>
+<p>© 2025 Silvia Moreno Portillo | Work Vibes</p>
 </div>
 """, unsafe_allow_html=True)
